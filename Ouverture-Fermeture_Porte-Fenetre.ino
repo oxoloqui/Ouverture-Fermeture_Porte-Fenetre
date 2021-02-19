@@ -8,6 +8,8 @@
 const char* wifi_ssid = "XXXXXXXXXXXXX";              //Identifiant de la box
 const char* wifi_password = "XXXXXXXXXXXX";           //Mdp de la box
 
+//test
+
 //----- Paramètre de l'heure -----//
 WiFiUDP ntpUDP;
 NTPClient temps(ntpUDP, "fr.pool.ntp.org", 3600, 60000);
